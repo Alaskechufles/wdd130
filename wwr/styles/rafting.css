@@ -45,7 +45,7 @@ p {
 header > nav > a {
   text-decoration: none;
   background-color: var(--accent2-color);
-  color: white;
+  color: rgb(0, 0, 0);
   border: #e8eff6 solid 1px;
   padding: 10px 30px;
 }
@@ -59,7 +59,7 @@ main {
 }
 .hero h1 {
   position: absolute;
-  top: 0%;
+  top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: var(--font-family-secondary);
@@ -83,7 +83,7 @@ main {
   width: 80%;
 }
 .hero article p {
-  color: var(--secondary-color);
+  color: black;
   padding-right: 15px;
 }
 .hero article img {
