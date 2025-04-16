@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Rapids - Rafting Company - About Us</title>
+  <title>Rapids - Rafting Company - Contact Us</title>
   <meta name="description" content="Rafting Website" />
   <meta name="author" content="Diego Andres Huarsaya Cruz" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,59 +24,47 @@
       <a href="contact.html">Contact</a>
     </nav>
   </header>
-  <main>
-    <div class="hero">
-      <img src="images/rafting58_600.webp" alt="" />
-      <h1>Rapids</h1>
-      <article>
-        <img src="images/client.webp" alt="client" />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-          dicta, corporis fugiat aut quaerat sequi in dignissimos vero quidem
-          tenetur.
-        </p>
-      </article>
-    </div>
-    <section class="history">
-      <h2>History</h2>
+  <main class="main">
+    <section class="sectionContact">
       <div>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex
-          perferendis laborum officiis, totam nulla hic sequi? Reiciendis
-          voluptatum officiis vero.
-        </p>
-        <img src="images/adventure-1.jpg" alt="adventure-1" />
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex
-          perferendis laborum officiis, totam nulla hic sequi? Reiciendis
-          voluptatum officiis vero.
-        </p>
+        <h1>
+          Contact Us
+        </h1>
+        <address>123 Orange Street</address>
+        <p>+51 999888777</p>
+        <p>rapids@river.com</p>
       </div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12325.243406658135!2d-113.24441302181856!3d42.60823751762435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1744837864224!5m2!1ses!2spe"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
     </section>
-    <section class="galery">
-      <h2>Adventure Awaits You!</h2>
-      <div>
-        <figure>
-          <img src="images/adventure-1.jpg" alt="adventure-1" />
-          <figcaption>La bajada del Muerto</figcaption>
-        </figure>
-        <figure>
-          <img src="images/adventure-2.jpg" alt="adventure-2" />
-          <figcaption>Los Dientes del Diablo</figcaption>
-        </figure>
-        <figure>
-          <img src="images/adventure-3.webp" alt="adventure-3" />
-          <figcaption>La bajada del Muerto</figcaption>
-        </figure>
-        <figure>
-          <img src="images/adventure-4.webp" alt="adventure-4" />
-          <figcaption>Big Mallard</figcaption>
-        </figure>
-        <figure>
-          <img src="images/adventure-5.webp" alt="adventure-5" />
-          <figcaption>Half Day Adventure</figcaption>
-        </figure>
-      </div>
+    <section class="contactForm">
+      <img src="./images/contact.jpg" alt="">
+      <form action="" class="form">
+        <label for="name">
+          <input id="name" name="name" type="text" placeholder="Enter your name">
+        </label>
+        <label for="radio1" class="radioLabel">
+          <input class="radio" id="radio1" type="radio" name="radio">
+          Option 1
+        </label>
+        <label for="radio2" class="radioLabel">
+          <input class="radio" id="radio2" type="radio" name="radio">
+          Option 2
+        </label>
+        <label for="radio3" class="radioLabel">
+          <input class="radio" id="radio3" type="radio" name="radio">
+          Option 3
+        </label>
+        <textarea name="textarea" id="textarea" placeholder="Comments"></textarea>
+        <label for="checkbox" class="checkboxLabel">
+          <input id="checkbox" type="checkbox" name="checkbox">
+          Checkbox
+        </label>
+        <button name="buttonSubmit" id="buttonSubmit" type="submit">Send</button>
+      </form>
     </section>
   </main>
   <footer>
